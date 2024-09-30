@@ -1,0 +1,61 @@
+<html>
+<head>
+<title> lesson5_8 </title>
+<body bgcolor="lightblue">
+<h1 style="text-align:center;color:white;"> HYPERLINKS </h1>
+<hr>  <a href="home.html" target="_self"> Home </a>
+<h2 style="color:white;"> What is a Hyperlink? </h2>
+<p style="font-family:serif;color:white;"> A Web site is usually made up of several Web pages. <br>
+Hyperlink is a reference link that allows you to navigate to another page of the same document or to another document. <br>
+Hyperlink or link may be represented by a colored text with an underline or with an image. </p>
+<ul style="color:white;font-family:serif;"> Types of Hyperlinks
+<li> Absolute URL <br>
+Links to a page on a different Web server. </li>
+<li> Relative URL <br>
+Links to a page on the same Web server. </li>
+<li> Named Anchor <br>
+Links to a different location on the same Web page. </li>
+</ul>
+<h2 style="color:white;"> Creating a Link from One Page to Another </h2>
+<p style="font-family:serif;color:white;"> • Anchor - term used to define a hyperlink. Allows viewers to go to another Web page or file. Can also be made to make email hyperlinks. <br>
+• Anchors can be made thru the container tag < a>< /a> and setting the value of the attribute href as the target destination page. </p>
+<h3 style="color:blue;"> EXAMPLE </h3>
+<a href="https://savethewhales.org/"> Save the Whales with us Today! </a> <br>
+< a href="https://savethewhales.org/"> Save the Whales with us Today! < /a > <br> <br> 
+<a href="mailto:gomezanya20@gmail.com"> My Email</a> <br>
+< a href="mailto:gomezanya20@gmail.com"> My Email< /a >
+<br> <hr>
+<h1 style="text-align:center;color:white;"> FORMS </h1>
+<h2 style="color:white;">What is a Form? </h2>
+<p style="color:white;font-family:serif;"> Form - allows you to gather feedback from your readers or visitors and work on the data to provide better service. <br>
+- Online forms are webpages purposely designed for gathering information on the Internet. These HTML documents are sent back to the server once the user submits them. <br>
+- The areas on the form are called fields, text fields or text boxes.
+
+<h2 style="color:white;font-family:serif;"> EXAMPLE CODES </h2>
+ <b>1. TEXT AREA</b>
+<form action="http://www.myserver.com/myscript.cgi" method="post">
+<h3 align="center">Customer Survey Form</h3>
+<hr align="center">
+<h5>Name<input type="text"></h5>
+<p>To help us better serve you, please write your comments.<br>
+<textarea name="feedback" rows="10" cols="30"></textarea></p>
+</form>
+<br>
+<b> 2. TEXTBOXES </b>
+<form action="http://www.myserver.com/myscript.cgi"
+method="post">
+<h3 align="center">Customer Survey Form</h3>
+<hr align="center">
+<h5>Name<input type="text"></h5></form>
+<form action="http://www.myserver.com/myscript.cgi" method="post">
+<br>
+<b> 3. RADIO BUTTONS </b>
+<h3 align="center">Customer Survey Form</h3>
+<hr align="center">
+<h5>Name<input type="text"></h5>
+<p>Please check the products you have used in the past two years.<br></p> <p><input name="pictype" type="radio" value="cross">Adobe Photoshop</p>
+<p><input name="pictype" type="radio" value="cross">Microsoft Excel</p>
+<p><input name="pictype" type="radio" value="cross">Norton Antivirus</p>
+</form>
+</body>
+</html>

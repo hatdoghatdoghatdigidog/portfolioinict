@@ -1,0 +1,153 @@
+<html>
+<head> <title> lesson1_4 </title>
+<h1 style="text-align:center;"> XHTML </h1>
+<body bgcolor="lightblue"> <hr>
+<a href="home.html" target="_self"> Home </a>
+<p style="color:white;font-family:serif;text-align:justify;"> XHTML is an acronym for extensible Hyper Text Markup Language.
+<br><br>
+The "x" came from XML or extensibie Mark-up Language. Though different from HTML, XHTML also uses the filename extension html.
+<br><br>
+The content of the actual coding might change because of XHTML conventions but it still holds the same filename extension. </p>
+<br><br> 
+<h2> Difference of HTML and XHTML </h2>
+<p style="color:white;font-family:serif;text-align:justify;"> XHTML is stricter and cleaner version of HTML Aimed to replace HTML
+<br>
+All new Web browsers support XHTMI, because there came to a point that a huge amount of web pages have been written in the wrong syntax Since web browsers still force to interpret HTML the way they could, sometimes the wrong syntax could still display a logically correct output </p> <br>
+<ul style="color:white;font-family:serif;font-size:15px;"> <b> XHTML</b> 
+<li> Proper Nesting <br>
+Proper nesting of elements has been exemplified and XHTMI elements must be properly nested Proper nesting of elements would mean that, for example if you were to make a piece of text appear in boldface and italics using < b>< /b> and < i>< /i> respectively You would need to close last the first tag you opened</li> <br>
+<li> Proper Tag Closing <br>
+Recall the container tags Container tags have start and end tags. and end tags are defined by a slash End tags are used to basically close the tag XHTMI requires proper closing of tags 
+</li> <br>
+<li> Elements in Lowercase Characters <br>
+HTML elements MUST be written in lowercase characters 
+</li> <br>
+<li> One Root Element <br>  All XHTML elements MUST be nested within one root element which is html/html> Therefore, the basic structure for the whole document is
+< html>
+< head>
+< title-One Root< /title>
+< /head> 
+</li> <br>
+<li> Attributes in Lowercase Characters <br>
+All XHTML elements MUST be written in lowercase characters same as with the attributes.
+</li> <br>
+<li> Quoted Values <br>
+Values of attributes are described as "usually" enclosed in single and double quotes XHTML requires values to be quoted nevertheless. </li>
+<br> <hr>
+<h1 style="text-align:center;"> LISTS </h1>
+<p style="color:white;font-family:serif;text-align:justify;">
+<i> HTML Lists are used to specify lists of information. All lists may contain one or more list elements. There are three different types of HTML lists: </i>
+<br> 1. Ordered List or Numbered List (ol) <br>
+2. Unordered List or Bulleted List (ul) <br>
+3. Description List or Definition List or Glossary List (dl)
+</p>
+<table border="1">
+  <tr>
+    <th>HTML Tag</th>
+    <th>DEFINITION</th>
+  </tr>
+  <tr>
+    <td> < ul > </td>
+    <td> unordered or bulleted list </td>
+  </tr>
+  <tr>
+    <td> < ol > </td>
+    <td>numbered or numbered list </td>
+   </tr>
+   <tr>
+    <td> < dl ></td>
+    <td> description, definition, or glossary list </td>
+    </tr>
+    <tr>
+<td> < li> </td>
+<td> line item </td>
+  </tr>
+  </table>
+<br>
+  <h2 style="font-family:serif;"> Ordered List</h2>
+<p style="font-family:serif;"> This is the type of list where each item is numbered usually starting at 1 (but can be changed using the start attribute) The ordered list uses the container tag < ol>< /ol>. Each item in this list is specified by the tag < li>< /li>
+<br>
+The ordered list has different types of numbering and can be specified by keying the specified value for the type attribute.
+<ul>
+<li> >1 for regular numbering (1,2,3,4, etc.) </li
+<li> a for lowercase alphabet (a,b,c,d,etc.) </li>
+<li> A for uppercase alphabet (A,B,C,D,etc.)</li>
+<li> i for lowercase Roman Numerals (i,ii,iii, iv, etc.) </li>
+<li> I for uppercase Roman Numerals (I, II, III, IV, etc.) </li>
+</ul>
+</p>
+<table border="1">
+  <tr>
+    <th>Attribute</th>
+    <th>DEFINITION</th>
+    <th> Value </th>
+  </tr>
+  <tr>
+    <td> type </td>
+    <td> indicates the type of numbering used in the list</td>
+    <td> 1, a, A, I, i </td>
+  </tr>
+  <tr>
+    <td> start </td>
+    <td> indicates the value of the first item in the list. </td>
+    <td> any number </td>
+  </tr>
+  </table>
+  </ul>
+  <br>
+  <h2 style="font-family:serif;"> Unordered List </h2>
+<p style="font-family:serif;"> Unordered type of list enumerates each item as bulleted and uses container tag < ul>< /ul>. Like the ordered list, each item in the list is specified by the < li>< /li> tag.
+The unordered list has different types of bullet to be used and can be specified by keying the specified value
+<ul> 
+<li> for the type attribute: disc for round bullets <br>
+ex. < ul type="disc"> </li>
+<li> circle for circular bullets <br>
+ex. < ul type="circle"> </li>
+<li>square for square bullets <br>
+ex. < ul type="square"> </li>
+</ul>
+<h2 style="font-family:serif;" > Definition List</h2>
+<p style="font-family:serif;"> Another type of list is the definition list. Also called as description or glossary list.
+It is an effective tool for making your own "definition of terms" or glossary. This type of list uses the container tag < dl>< /dl>.
+<br>
+Unlike the previous lists, the definition list uses the tags < dt>< /dt> for the item itself and < dd>< /dd> for the definition of the item
+</p>
+<br> <hr>
+<h1 style="text-align:center;color:white;"> TABLES </h1>
+
+<ul style="color:white;">
+<li> Tables also allow you to divide your page into section where you can place headers, footers and navigation links. Almost all websites are laid out using tables. </li>
+<li> A table is made up of rows and columns. You can place different elements in each cell like text or image. </li>
+<li> A table by default has no borders, so you need to have a value of <b> at least 1 </b> for the border attribute. </li>
+</ul>
+<h2 style="color:white;"> CREATING A TABLE </h2>
+<ol style="color:white;size:15px;"> 
+<li> Tables arrange and organize content into columns and rows. They can be made via the container < table>< /table> tags </li>
+<li> Each row within the table is defined by the container tags < tr>< /tr>. Each cell or data within a row is defined by the < td>< /td>. container tags> </li>
+<li> Remember that the cells < td>< /td> are placed inside rows < tr>< /tr> and rows are placed inside < table>< /table>. </li>
+</ol>
+<h2 style="color:white;"> EXAMPLE </h2>
+<table border="1" bgcolor="lightpink">
+<tr>
+  <td> TYPES OF WHALES</td>
+  <td> Description </td>
+</tr>
+<tr>
+  <td> blue whale </td>
+  <td> The biggest whale there is. Also the biggest animal on earth. </td>
+  </tr>
+  <tr> 
+  <td> beluga whale </td>
+  <td> Known for their squishy head, which is called a melon. They are also very loving and friendly. </td>
+  </tr>
+  <tr>
+    <td> orca whale </td>
+    <td> Black and white whales known for their skill in hunting. They are also commonly used for tricks in aquariums. </td>
+     </tr>
+     <tr>
+       <td> whale shark </td>
+       <td> Wide whales that are very cute. Although their name, tehy are actually  not violent and pose no threat to humans. </td>
+  </tr>
+</table>
+</body>
+</html>
